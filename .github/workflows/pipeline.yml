@@ -129,7 +129,7 @@ jobs:
 
     - name: Simulate Pushing to Remote Registry
       run: |
-        echo "Push fake.registry.local/${{ github.repository }}:${{ github.sha }"
+        echo "Push fake.registry.local/${{ github.repository }}:${{ github.sha }}"
         sleep 2
 
     - name: Deploy to cloud service 😉
