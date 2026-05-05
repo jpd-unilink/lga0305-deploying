@@ -124,7 +124,7 @@ jobs:
     - name: Tag the image
       run: |
         echo "Tag image for cloud deployment"
-        docker tag ghcr.io/${{ github.repository }}:${{ github.sha }} fake.registry.local/${{ github.repository }}:${{ github.sha }
+        docker tag ghcr.io/${{ github.repository }}:${{ github.sha }} fake.registry.local/${{ github.repository }}:${{ github.sha }}
         docker image ls
 
     - name: Simulate Pushing to Remote Registry
