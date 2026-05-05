@@ -1,5 +1,7 @@
 # 03_05 Deploying
 
+[![Pipeline](https://github.com/jpd-unilink/lga0305-deploying/actions/workflows/pipeline.yml/badge.svg)](https://github.com/jpd-unilink/lga0305-deploying/actions/workflows/pipeline.yml)
+
 We’ve reached the final stage of the CI/CD pipeline: deployment.
 
 In this lesson, you’ll learn how to take the container image built and tested in previous jobs and deploy it to a cloud platform—in this case, Google Cloud Platform (GCP).
